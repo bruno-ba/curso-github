@@ -1,11 +1,11 @@
-git config --global user.name "bruno torres"
-git config --global user.email "smtbssa@gmail.com"
+git config --global user.name "seunome"
+git config --global user.email "seu e-mail"
 
 >>>git config user.name
 bruno torres
 
 >>>git config user.e-mail
-smtbssa@gmail.com
+seu e-mail
 
 >>>git config --list
 {lista toda configurações..}
@@ -17,17 +17,27 @@ Comandos:
 
 >>>git status
 
->>>git add Readme.md
+>>>git add Readme.md - adiciona ao stage
 
->>>git log
+>>>git log - log e hash dos arquivos
 
->>>git shortlog
+>>>git shortlog - nome dos arquivos
 
->>git log --graph
+>>git log --graph - em linhas
 
->>>git show #####hash#####
+>>>git show #####hash##### - mostra as modificações 
 
 
 >>> git diff  - permite revisar o código
 
->>> git diff --name-only apenas os nomes dos arquivos 
+>>> git diff --name-only apenas os nomes dos arquivos
+
+>>> git checkout 'nome do arquivo' - 'estado de edição' para voltar ao estado antes de enviar para o stage
+q
+>>> git reset HEAD - remove do stage e volta para o ponteiro que esta
+
+>>> git reset --soft -> volta para o stage
+
+>>> git reset --mixed -> mata o commit e volta arquivos para o estado modificado
+
+>>> git reset --hard -> mata tudo que foi feito do commit
