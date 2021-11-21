@@ -1,0 +1,33 @@
+git config --global user.name "bruno torres"
+git config --global user.email "smtbssa@gmail.com"
+
+>>>git config user.name
+bruno torres
+
+>>>git config user.e-mail
+smtbssa@gmail.com
+
+>>>git config --list
+{lista toda configurações..}
+
+>>> git init - inicializa um diretório git
+
+
+Comandos:
+
+>>>git status
+
+>>>git add Readme.md
+
+>>>git log
+
+>>>git shortlog
+
+>>git log --graph
+
+>>>git show #####hash#####
+
+
+>>> git diff  - permite revisar o código
+
+>>> git diff --name-only apenas os nomes dos arquivos 
