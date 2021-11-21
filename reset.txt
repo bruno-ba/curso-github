@@ -1,3 +1,5 @@
-inserindo texto - estado untracked
+inserindo texto 01- estado untracked
 
-inserindo texto - Indo para o estado modificado  - Esperando commit
+inserindo texto 02- Indo para o estado modificado  - Esperando commit
+
+inserindo texto 03 - Editando e incluindo o terceiro commit 
