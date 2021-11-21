@@ -1,1 +1,3 @@
 inserindo texto - estado untracked
+
+inserindo texto - Indo para o estado modificado  - Esperando commit
