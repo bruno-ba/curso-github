@@ -19,7 +19,7 @@ Comandos:
 
 >>>git add Readme.md - adiciona ao stage
 
->>>git log - log e hash dos arquivos
+>>>git log - log e hash dos arquivosgit
 
 >>>git shortlog - nome dos arquivos
 
@@ -33,8 +33,10 @@ Comandos:
 >>> git diff --name-only apenas os nomes dos arquivos
 
 >>> git checkout 'nome do arquivo' - 'estado de edição' para voltar ao estado antes de enviar para o stage
-q
->>> git reset HEAD - remove do stage e volta para o ponteiro que esta
+
+
+>>> git reset HEAD - remove do stage e volta para o ponteiro que esta - OLD
+>>> git restore --staged <file>... to unstage
 
 >>> git reset --soft -> volta para o stage
 
