@@ -43,3 +43,5 @@ Comandos:
 >>> git reset --mixed -> mata o commit e volta arquivos para o estado modificado
 
 >>> git reset --hard -> mata tudo que foi feito do commit
+
+>>> criando branch: git checkout -b <nome do branch>
